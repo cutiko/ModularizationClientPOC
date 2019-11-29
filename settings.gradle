@@ -1,0 +1,6 @@
+include ':app', ':chatrepository', ':chatmodels', ':repository', ':presentation', ':chats'
+rootProject.name='ModularizationClientPOC'
+project(':chatrepository').projectDir = new File('../ModularizationCorePoc/chatrepository')
+project(':chatmodels').projectDir = new File('../ModularizationCorePoc/chatmodels')
+project(':repository').projectDir = new File('../ModularizationCorePoc/repository')
+project(':presentation').projectDir = new File('../ModularizationCorePoc/presentation')
